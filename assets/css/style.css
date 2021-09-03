@@ -960,7 +960,7 @@ textarea.form-control {
 
 .social-links {
     margin: 0px 0px 0px 0px;
-    display: inline;
+    display: inline-block;
     float: right;
 }
 
@@ -991,6 +991,48 @@ textarea.form-control {
 .footer {
     margin-right: 50%;
 }
+
+
+/* new footer */
+
+.row-custom {
+    max-width: 1600px !important;
+    margin: 0px auto !important;
+    padding-top: 50px;
+}
+
+footer {
+    background-color: #191919;
+    width: 100% !important;
+    padding-bottom: 50px;
+    margin-bottom: 150px;
+}
+
+footer img {
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-icons {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li, .social-icons li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+
+
 
 
 /* ----------------------------------------------------------------------------------------
