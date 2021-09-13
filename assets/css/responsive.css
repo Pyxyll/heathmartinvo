@@ -7,7 +7,11 @@
 
 /* Medium Layout: 1280px. */
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        overflow: hidden;
+    }
+}
 
 
 /* Tablet Layout: 768px. */
